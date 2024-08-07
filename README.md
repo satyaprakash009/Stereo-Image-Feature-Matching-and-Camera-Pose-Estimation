@@ -1,7 +1,7 @@
 
 ---
 
-# Feature Detection and Matching in Stereo Images
+# Stereo Image Feature Matching and Camera Pose Estimation
 
 ## Overview
 
