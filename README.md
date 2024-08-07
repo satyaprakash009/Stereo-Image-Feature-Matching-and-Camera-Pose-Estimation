@@ -32,7 +32,9 @@ This project involves feature detection and matching in stereo images using the 
 - **Evaluation**: Accuracy of the camera pose estimation is assessed by comparing estimated rotation and translation with ground truth values. Errors in rotation and translation are computed.
 
 ### 7. Detecting and Removing Moving Objects (Bonus)
-- **Techniques**: Background subtraction to identify and mask moving objects, improving the robustness of the feature matching process.
+- **Techniques**: Use background subtraction to detect moving objects.
+Use optical flow to further refine the detection of moving objects.
+Adjust the thresholding to ensure that we retain sufficient matches.
 
 ## Results and Visualizations
 
